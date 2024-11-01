@@ -1,0 +1,179 @@
+p.tcms-error {
+	display: block;
+	padding: 1.5em;
+	border: 1px solid #ff5858;
+	background-color: #ffe3e3;
+}
+/* Admin Menu - 16px */
+#menu-posts-tcms_production .wp-menu-image, #tcms_productions_dashboard_widget h3.hndle {
+    background: url('images/icon-production-adminmenu16-sprite.png') no-repeat 6px 6px !important;
+}
+#menu-posts-tcms_production:hover .wp-menu-image, #menu-posts-tcms_production.wp-has-current-submenu .wp-menu-image {
+    background-position: 6px -26px !important;
+}
+#tcms_productions_dashboard_widget h3.hndle {
+    background: url('images/icon-production-adminmenu16-sprite.png') no-repeat 6px 6px !important;
+    background-position: 8px -25px !important;
+    padding: .5em 30px;
+}
+
+#menu-posts-tcms_production:hover .wp-menu-image, #menu-posts-tcms_production.wp-has-current-submenu .wp-menu-image {
+    background-position: 6px -26px !important;
+}
+/* Post Screen - 32px */
+.icon32-posts-tcms_production {
+	background: url('images/icon-production-adminpage32.png') no-repeat left top !important;
+	-webkit-background-size: 32px 32px !important;
+	-moz-background-size: 32px 32px !important;
+	background-size: 32px 32px !important;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (        min-device-pixel-ratio: 1.5),
+only screen and (        		 min-resolution: 1.5dppx) {
+	
+	/* Admin Menu - 16px @2x */
+	#menu-posts-tcms_production .wp-menu-image {
+		background-image: url('images/icon-production-adminmenu16-sprite_2x.png') !important;
+		-webkit-background-size: 16px 48px !important;
+		-moz-background-size: 16px 48px !important;
+		background-size: 16px 48px !important;
+	}
+	/* Post Screen - 32px @2x */
+	.icon32-posts-tcms_production {
+		background-image: url('images/icon-production-adminpage32_2x.png') !important;
+		-webkit-background-size: 32px 32px !important;
+		-moz-background-size: 32px 32px !important;
+		background-size: 32px 32px !important;
+	}         
+	#tcms_productions_dashboard_widget h3.hndle {
+	    background: url('images/icon-production-adminmenu16-sprite_2x.png') no-repeat 6px 6px !important;
+		-webkit-background-size: 16px 48px !important;
+		-moz-background-size: 16px 48px !important;
+		background-size: 16px 48px !important;
+	    background-position: 8px -25px !important;
+	    padding: .5em 30px;
+	}
+}
+
+/* Admin Menu - 16px */
+#menu-posts-tcms_event .wp-menu-image {
+    background: url('images/icon-event-adminmenu16-sprite.png') no-repeat 6px 6px !important;
+}
+#menu-posts-tcms_event:hover .wp-menu-image, #menu-posts-tcms_event.wp-has-current-submenu .wp-menu-image {
+    background-position: 6px -26px !important;
+}
+#tcms_events_dashboard_widget h3.hndle {
+    background: url('images/icon-event-adminmenu16-sprite.png') no-repeat 6px 6px !important;
+    background-position: 8px -25px !important;
+    padding: .5em 30px;
+}
+/* Post Screen - 32px */
+.icon32-posts-tcms_event {
+	background: url('images/icon-event-adminpage32.png') no-repeat left top !important;
+	-webkit-background-size: 32px 32px !important;
+	-moz-background-size: 32px 32px !important;
+	background-size: 32px 32px !important;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (        min-device-pixel-ratio: 1.5),
+only screen and (        		 min-resolution: 1.5dppx) {
+	
+	/* Admin Menu - 16px @2x */
+	#menu-posts-tcms_event .wp-menu-image {
+		background-image: url('images/icon-event-adminmenu16-sprite_2x.png') !important;
+		-webkit-background-size: 16px 48px !important;
+		-moz-background-size: 16px 48px !important;
+		background-size: 16px 48px !important;
+	}
+	/* Post Screen - 32px @2x */
+	.icon32-posts-tcms_event {
+		background-image: url('images/icon-event-adminpage32_2x.png') !important;
+		-webkit-background-size: 32px 32px !important;
+		-moz-background-size: 32px 32px !important;
+		background-size: 32px 32px !important;
+	}         
+	#tcms_events_dashboard_widget h3.hndle {
+	    background: url('images/icon-event-adminmenu16-sprite_2x.png') no-repeat 6px 6px !important;
+		-webkit-background-size: 16px 48px !important;
+		-moz-background-size: 16px 48px !important;
+		background-size: 16px 48px !important;
+	    background-position: 8px -25px !important;
+	    padding: .5em 30px;
+	}
+}
+
+h3.tcmsEventListTitle {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-bottom: .3em;
+}
+div.tcmsEvent {
+	padding: 0;
+	margin: 0 0 .5em 0;
+}
+time.tcmsEventDate {
+	border-top: 1px rgba(0,0,0,0.1) solid;
+	margin: 1em 0 .3em 0;
+	display: inline-block;
+	padding: .2em 0;
+	width: 100%;
+	font-size: 1.2em !important;
+}
+h4.tcmsTitle {
+	font-size: 1.6em !important;
+	font-weight: bold;
+	clear: none;
+	margin: .2em 0 !important;
+}
+.tcmsTitle a, h4.tcmsTitle a {
+	text-decoration: none;
+}
+.tcmsTitle a:hover, h4.tcmsTitle a:hover {
+	text-decoration: underline;
+}
+time.tcmsEventTime {
+	color: rgba(0,0,0,0.5);
+	font-size: 1.2em !important;
+	display: inline-block;
+	margin: 0 1em .5em 0;
+}
+span.smaller {
+	font-size: .7em;
+}
+.legalese {
+	font-size: .8em;
+	color:#9f9f9f;
+	line-height: 1.1em;
+	margin: .5em 0 0 0;
+}
+img.tcmsAccessibleCalendar {
+	max-height: 1.8em !important;
+	max-height: 1.8em !important;
+	margin: 0 .2em .2em 0;
+	line-height: 1.9em !important;
+	border: none !important;
+	border-radius: 0 !important;
+	position: relative;
+	top: 6px;
+}
+time.tcmsSeason {
+	border-top: 1px rgba(0,0,0,0.1) solid;
+	margin: 1em 0 .3em 0;
+	display: inline-block;
+	padding: .2em 0;
+	width: 100%;
+	font-size: 1.2em !important;
+}
+p.tcmsDateRange, time.tcmsDateRange {
+	margin: 0 0 1.5em 0 !important;
+	font-size: 1em;
+	font-style: italic;
+	color: rgba(0,0,0,0.5);
+	display: block;
+}
